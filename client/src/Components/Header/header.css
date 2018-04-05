@@ -1,0 +1,29 @@
+.header {
+
+}
+
+.header__title {
+  /* margin-right: auto; */
+  color: #e74c3c;
+  text-align: center;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-nav__item {
+  color: #f1c40f;
+  padding:10px;
+  outline: none;
+  font-weight: 700;
+}
+
+.activeLink {
+  background-color: red;
+}
+
+.fav-btn {
+  margin-right: 10px;
+}

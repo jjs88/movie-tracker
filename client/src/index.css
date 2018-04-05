@@ -1,0 +1,14 @@
+@import './css/normalizer.css';
+@import './Components/Header/header.css';
+@import './Components/Movie/movie.css';
+@import './Components/SignIn/SignInForm.css';
+
+body {
+  background-color: #ecf0f1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}

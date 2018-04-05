@@ -1,0 +1,40 @@
+.movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.movie {
+  /* border: 1px solid black; */
+  box-shadow: 5px 2px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 350px;
+}
+
+.movie__poster {
+  height:275px;
+  width: 220px;
+}
+
+.movie__poster:hover,
+.favorite:hover {
+  cursor: pointer;
+}
+
+
+.favorite {
+  padding: 10px;
+}
+
+.isFavorite {
+  color: red;
+}

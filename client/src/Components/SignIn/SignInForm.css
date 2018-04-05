@@ -1,0 +1,20 @@
+.signInForm {
+  /* background-color: #95a5a6; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 340px;
+}
+
+.signInForm__Item {
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+.signInForm__Item:last-child {
+  color: #ecf0f1;
+  background-color: #f1c40f;
+  font-weight: 700;
+}
