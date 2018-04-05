@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jjs88.github.io/movie-tracker/",
   "name": "example-api",
   "version": "1.0.0",
   "description": "MovieTracker",
@@ -13,7 +14,9 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "server": "nodemon server.js",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Taylor Moore",
