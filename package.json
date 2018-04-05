@@ -1,5 +1,4 @@
 {
-  "homepage": "https://jjs88.github.io/movie-tracker/",
   "name": "example-api",
   "version": "1.0.0",
   "description": "MovieTracker",
@@ -14,9 +13,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "server": "nodemon server.js",
-    "client": "cd client && npm start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "Taylor Moore",
@@ -52,6 +49,7 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.1",
     "gh-pages": "^1.1.0",
+    "gh-pages-deploy": "^0.4.2",
     "jest": "^21.2.1",
     "node-sass": "^4.5.3",
     "react-hot-loader": "^1.3.1",
